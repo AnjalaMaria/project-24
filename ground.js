@@ -9,6 +9,6 @@ class Ground {
     display(){
       fill("green");
       rectMode(CENTER);
-      rect(this.body.position.x,this.body.position.y,this.width,this.height);
+      rect(this.body.position.x,this.body.position.y);
     }
 }
